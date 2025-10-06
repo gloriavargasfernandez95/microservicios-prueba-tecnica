@@ -97,7 +97,7 @@ cd order-service
 mvn spring-boot:run
 ```
 
-Ambos servicios se ejecutarán en los puertos configurados previamente (por defecto: **8080** y **8085**).
+⚠️ Ejecutar primero **Product Service** ya que **Order Service** depende de el. Ambos servicios se ejecutarán en los puertos configurados previamente (por defecto: **8080** y **8085**).
 
 ---
 
